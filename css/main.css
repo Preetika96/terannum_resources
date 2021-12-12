@@ -1,55 +1,55 @@
 @font-face 
 {
     font-family: SalmaAlfasans;
-    src: url("../font/salma-font-family/SalmaAlfasans\ Regular.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/salma-font-family/SalmaAlfasans\ Regular.otf");
 }
 
 @font-face 
 {
     font-family: SalmaAlfasans_SemiBold;
-    src: url("../font/salma-font-family/SalmaAlfasans\ SemiBold.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/salma-font-family/SalmaAlfasans\ SemiBold.otf");
 }
 
 @font-face 
 {
     font-family: SalmaAlfasans_ExtraBold;
-    src: url("../font/salma-font-family/SalmaAlfasans\ ExtraBold.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/salma-font-family/SalmaAlfasans\ ExtraBold.otf");
 }
 
 @font-face 
 {
     font-family: SalmaAlfasans_Thin;
-    src: url("../font/salma-font-family/SalmaAlfasans\ Thin.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/salma-font-family/SalmaAlfasans\ Thin.otf");
 }
 
 @font-face 
 {
     font-family: SalmaAlfasans_Light;
-    src: url("../font/salma-font-family/SalmaAlfasans\ Light.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/salma-font-family/SalmaAlfasans\ Light.otf");
 }
 
 @font-face 
 {
     font-family: SalmaAlfasans_Medium;
-    src: url("../font/salma-font-family/SalmaAlfasans\ Medium.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/salma-font-family/SalmaAlfasans\ Medium.otf");
 }
 
 @font-face 
 {
     font-family: Halogen_Bold;
-    src: url("../font/halogen-bold.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/halogen-bold.otf");
 }
 
 @font-face 
 {
     font-family: Bebas_Neue_Bold;
-    src: url("../font/BebasNeue\ Bold.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/BebasNeue\ Bold.otf");
 }
 
 @font-face 
 {
     font-family: Helvetica_Neue;
-    src: url("../font/Helvetica\ Neue\ Medium\ Extended.otf");
+    src: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_resources@master/font/Helvetica\ Neue\ Medium\ Extended.otf");
 }
 
 *
