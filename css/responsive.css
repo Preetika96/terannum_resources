@@ -1,0 +1,1871 @@
+@media screen and (max-width: 576px)
+{
+    .desktop
+    {
+        display: none !important;
+    }
+
+    .mobile
+    {
+        display: block;
+    }
+
+    .hero__content
+    {
+        width: 78% !important;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .hero__title
+    {
+        font-size: 14px;
+        margin-bottom: 4%;
+    }
+
+    .hero__description
+    {
+        font-size: 45px !important;
+    }
+
+    .hero__link
+    {
+        margin-top: 35%;
+        font-size: 18px;
+    }
+
+    .client_section__specs_container
+    {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .client_section__specs_column
+    {
+        width: 100% !important;
+        margin-bottom: 14%;
+    }
+
+    .client_section__specs_column:nth-of-type(1) .client_section__specs_title, .client_section__specs_column:nth-of-type(2) .client_section__specs_title
+    {
+        margin-bottom: 3% !important;
+    } 
+
+    .client_section__specs_title
+    {
+        margin-bottom: 6%;
+    }
+
+    .client_section__specs_grid
+    {
+        margin-bottom: 3.5%;
+    }
+
+    .client_section__specs_name
+    {
+        font-size: 15px;
+    }
+
+    .client_section__content 
+    {
+        width: 80% !important;
+    }
+
+    .client_section__title
+    {
+        font-size: 12px;
+    }
+
+    .client_section__description
+    {
+        font-size: 15px;
+    }
+
+    .client_section__tech_stack__title
+    {
+        font-size: 16px;
+    }
+
+    .client_section__image_container
+    {
+        flex-direction: column;
+    }
+
+    .client_section__image
+    {
+        width: 100% !important;
+    }
+
+    .client_section__tech_stack__title
+    {
+        font-size: 13px;
+        margin-bottom: 4%;
+    }
+
+    .client_section__tech_stack
+    {
+        padding: 12% 0;
+    }
+
+    .footer
+    {
+        flex-direction: column;
+        padding: 26% 12% 10%;
+    }
+
+    .footer_section_2
+    {
+        display: none;
+    }
+
+    .footer_section_1
+    {
+        width: 70%;
+    }
+
+    .footer_section_3
+    {
+        display: block;
+    }
+
+    .footer_caption
+    {
+        line-height: 110%;
+        font-size: 46px;
+    }
+
+    .footer_button
+    {
+        padding: 4% 6%;
+    }
+
+    .footer_button_container
+    {
+        margin-top: 14%;
+    }
+
+    .footer_link, .footer_link:visited, .footer_link:link, .footer_link:active 
+    {
+        font-size: 16px;
+    }
+
+    .footer_links_set
+    {
+        padding-bottom: 12%;
+        margin-bottom: 16%;
+        border-bottom: 0.5px solid rgba(255,255,255,.25);
+    }
+
+    .footer_link_logo img
+    {
+        max-width: 18px;
+        max-height: 18px;
+    }
+
+    .footer_link_logo
+    {
+        width: 23%;
+        text-align: center;
+    }
+
+    nav 
+    {
+        height: 12.5vw;
+    }
+
+    .terannum_logo_mobile
+    {
+        display: flex;
+        justify-content: flex-start;
+        width: 45%;
+    }
+
+    .terannum_logo_mobile a 
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .terannum_logo_mobile img
+    {
+        width: 100%;
+    }
+
+    .terannum_icon
+    {
+        width: 5vw;
+    }
+
+    .terannum_title, .terannum_title:link, .terannum_title:active, .terannum_title:visited
+    {
+        font-size: 3.8vw;
+        margin: -3.5% 1em 0;
+    }
+
+    .header_icons
+    {
+        justify-content: space-between;
+        width: 89%;
+        margin: 1.8% 6% 0 5%;
+    }
+
+    .terannum_logo
+    {
+        width: 45%;
+    }
+
+    .header_icon
+    {
+        width: 5%;
+    }
+
+    .header
+    {
+        padding-top: 1.5vh;
+        height: 88.5vh;
+    }
+    
+    .header_close_button
+    {
+        width: 5%;
+    }
+
+    .header_menu_links_set
+    {
+        flex-direction: column;
+    }
+
+    .header_menu_link p
+    {
+        font-size: 30px;
+    }
+
+    .header_menu_link
+    {
+        margin-bottom: 5.5%;
+    }
+
+    .header_address
+    {
+        display: none;
+    }
+
+    .header_details
+    {
+        flex-direction: column;
+    }
+
+    .header_details_section_1, .header_details_section_2
+    {
+        width: 100%;
+    }
+
+    .header_button_caption
+    {
+        font-size: 15px;
+    }
+
+    .header_button
+    {
+        padding: 3.5% 7%;
+    }
+
+    .header_contact
+    {
+        margin-top: 14%;
+    }
+
+    .header_contact_title
+    {
+        padding-bottom: 2.2%;
+    }
+
+    #index, #main
+    {
+        height: 100%;
+    }
+
+    .business_sections_container
+    {
+        flex-direction: column;
+        height: calc(100%);
+        /* max-height: calc(100vh - 100px); */
+        /* max-height: -webkit-fill-available; */
+    }
+
+    .business_section
+    {
+        height: calc(100%/3);
+        overflow: hidden;
+    }
+
+    /* .business_section img 
+    {
+        height: inherit;
+    } */
+
+    #public_relations_landing
+    {
+        background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/landing/public_relations_mobile.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #online_solutions_landing
+    {
+        background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/landing/online_solutions_mobile.png");
+        background-size: cover;
+        background-position: 50% 5%;
+        background-repeat: no-repeat;
+    }
+
+    #marketing_landing
+    {
+        background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/landing/marketing_mobile.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .business_content
+    {
+        height: 20%;
+    }
+
+    .business_title
+    {
+        font-size: 15px;
+    }
+
+    .business_section:hover .business_content 
+    {
+        height: 85%;
+        padding: 14% 0 1%;
+    }
+
+    .business_link
+    {
+        font-size: 15px;
+    }
+
+    #main
+    {
+        overflow: hidden;
+        background: #000000;
+    }
+
+    #main nav .terannum_logo 
+    {
+        display: none;
+    }
+
+    #main nav
+    {
+        justify-content: flex-end;
+    }
+
+    .business_text
+    {
+        margin: 4.5% 5%;
+    }
+
+    .business_text li
+    {
+        font-size: 14px;
+    }
+
+    .initial_caption_section
+    {
+        padding: 30% 15% 35%;
+    }
+
+    .initial_caption
+    {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .main_clients_section
+    {
+        margin: -12% 12% 10%;
+        width: 76%;
+    }
+
+    .client_grid
+    {
+        flex-direction: column;
+    }
+
+    .client_image, .client_image img
+    {
+        width: 100%;
+    }
+
+    .client_content
+    {
+        width: 100%;
+        margin: 20% 0;
+    }
+
+    .client_grid:nth-child(even)
+    {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .client_grid:nth-child(even) .client_image
+    {
+        margin-left: 0;
+    }
+
+    .all_clients_title
+    {
+        display: block;
+    }
+
+    .all_clients_section
+    {
+        flex-direction: column;
+    }
+
+    .client_tile
+    {
+        width: 100%;
+        margin-top: 12%;
+    }
+
+    .client_tile p
+    {
+        font-size: 20px;
+    }
+
+    .hero__section
+    {
+        height: fit-content;
+        overflow: auto;
+    }
+
+    .hero__section .slideshow
+    {
+        height: 124vh;
+    }
+
+    #m_slideshow
+    {
+        height: 135vh;
+    }
+
+    #public_relations_homepage_1
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_2_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #public_relations_homepage_2
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_3_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #public_relations_homepage_3
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_1_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #public_relations_homepage_4
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_4_mobile.jpg");
+        background-color: #6b6363;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #online_solutions_homepage_1
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_1_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #online_solutions_homepage_2
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_5_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #online_solutions_homepage_3
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_1_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #online_solutions_homepage_4
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_4_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #online_solutions_homepage_5
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_2_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #online_solutions_homepage_6
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_3_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #marketing_homepage_1
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/marketing/M_2_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #marketing_homepage_2
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/marketing/M_1_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #marketing_homepage_3
+    {
+        background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/marketing/M_1_mobile.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .home_page_overlay
+    {
+        position: unset;
+        margin-top: -145%;
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    #marketing_hero__section .home_page_overlay
+    {
+        margin-top: -165%;
+    }
+
+    .home_page_hero__title
+    {
+        font-size: 32px;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .home_page_hero__content
+    {
+        padding: 20% 10%;
+        text-align: center;
+    }
+
+    .home_page__description_title
+    {
+        font-size: 12px;
+    }
+
+    .home_page__description
+    {
+        font-size: 16px;
+    }
+    
+    .home_page__description_grid
+    {
+        margin-top: 16%;
+    }
+
+    .showcase_section
+    {
+        padding: 30% 0 20% 15%;
+    }
+
+    .showcase_caption
+    {
+        width: 80%;
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .showcase_link
+    {
+        padding: 5% 0 1.5%;
+        font-size: 22px;
+    }
+
+    .showcase_gallery
+    {
+        margin-top: 20%;
+        gap: 5vw;
+    }
+    
+    .showcase_tile img
+    {
+        width: 290px;
+        height: 260px;
+    }
+
+    .main_content_section
+    {
+        padding: 25% 12% 20%;
+        width: 76%;
+    }
+
+    .main_content
+    {
+        width: 100%;
+        font-size: 32px;
+        padding: 0;
+    }
+
+    .secondary_content
+    {
+        width: 100%;
+        font-size: 20px;
+        padding-top: 10%;
+    }
+
+    .icons_section
+    {
+        margin-top: 24%;
+        flex-direction: column;
+    }
+
+    .icon_grid img
+    {
+        height: 70px;
+        max-height: 70px;
+        max-width: 70px;
+    }
+
+    .icon_grid p
+    {
+        margin: 8% auto 15%;
+        font-size: 14px;
+    }
+
+    .technology_section
+    {
+        padding: 20% 12%;
+        width: 76%;
+    }
+
+    .technology_title
+    {
+        font-size: 16px;
+    }
+
+    .technology_text
+    {
+        font-size: 20px;
+        margin-top: 8%;
+    }
+
+    .home_page__tech_stack__logos_container
+    {
+        flex-direction: column;
+        margin-top: 14%;
+    }
+
+    .home_page__tech_stack__logo
+    {
+        margin: 8% auto;
+        width: 30vw;
+        max-height: 5vh;
+    }
+
+    .home_page__tech_stack__logos_container .google_workspace_logo
+    {
+        width: 70vw;
+    }
+
+    .home_page__tech_stack__logos_container .shopify_logo, .home_page__tech_stack__logos_container .stackpath_logo
+    {
+        width: 40vw;
+    }
+
+    .home_page__tech_stack__logos_container .mailchimp_logo, .home_page__tech_stack__logos_container .elementor_logo
+    {
+        width: 45vw;
+    }
+
+    .agency_content_section_1
+    {
+        text-align: left;
+        margin-top: 22%;
+        font-size: 36px;
+        line-height: 135%;
+    }
+
+    .agency_content_section_1 p:nth-of-type(2) 
+    {
+        margin-top: 16%;
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .agency_image_section_1
+    {
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .agency_content_section_2 p:nth-of-type(2)
+    {
+        font-size: 20px;
+        margin-top: 16%;
+        width: 100%;
+        line-height: 140%;
+    }
+
+    .agency_content_section_2
+    {
+        padding: 12%;
+        width: 76%;
+    }
+
+    .agency_content_section_2 p:nth-of-type(1)
+    {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .agency_stats_container
+    {
+        margin-top: 14%;
+        flex-direction: column;
+    }
+
+    .agency_stats_grid
+    {
+        width: 100%;
+        margin-bottom: 14%;
+    }
+
+    .agency_stats_number
+    {
+        font-size: 30vw;
+    }
+
+    .agency_stats_caption
+    {
+        margin-top: 0;
+        width: 50%;
+    }
+
+    .agency_steps_label
+    {
+        flex: 1;
+        font-size: 14px;
+    }
+
+    .agency_steps_label p
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .agency_steps_label_container
+    {
+        width: 100%;
+    }
+
+    .agency_steps_card
+    {
+        margin-top: 30%;
+    }
+
+    .agency_steps_card_section_1
+    {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .agency_steps_card_title
+    {
+        width: 100%;
+        font-size: 44px;
+    }
+
+    .agency_steps_card_sub_title
+    {
+        margin-top: 4%;
+        font-size: 18px;
+        color: #00A3D0;
+    }
+
+    .agency_steps_card_section_2
+    {
+        margin-top: 20%;
+        flex-direction: column;
+    }
+
+    .agency_steps_content
+    {
+        margin-bottom: 16%;
+    }
+
+    .agency_steps_title
+    {
+        font-size: 14px;
+    }
+
+    .agency_steps_text
+    {
+        font-size: 14px;
+    }
+
+    .agency_card_indicator
+    {
+        display: flex;
+        justify-content: center;
+        gap: 8%;
+    }
+
+    .agency_image_section_2
+    {
+        width: 100%;
+        margin: 20% auto 0;
+    }
+
+    .policy_container
+    {
+        margin: 16% 6%;
+    }
+    
+    .policy_main_title
+    {
+        font-family: "SalmaAlfasans";
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 130%;
+        margin: 4% 0;
+    }
+    
+    .policy_content, .policy_block_content
+    {
+        font-size: 18px;
+        line-height: 140%;
+    }
+    
+    .policy_content p, .policy_block_content p
+    {
+        margin: 4% 0;
+    }
+    
+    .policy_content ul, .policy_block_content ul, .policy_content ol, .policy_block_content ol
+    {
+        margin: 4% 0 4% 4%;
+    }
+    
+    .highlight_content
+    {
+        font-size: 18px;
+    }
+    
+    .subtitle_content
+    {
+        margin: 4% 0 2% !important;
+    }
+    
+    .policy_block
+    {
+        margin: 6% 0;
+    }
+    
+    .policy_block_title
+    {
+        font-size: 20px;
+        margin-bottom: 4%;
+    }
+    
+    .no_bullet_list li 
+    {
+        margin: 1% 0;
+    }
+    
+    .client_section__next_client
+    {
+        padding: 12% 0;
+    }
+
+    .client_section__next_client .showcase_link
+    {
+        font-size: 16px;
+        padding-bottom: 0.75%;
+    }
+
+    .filler_text
+    {
+        margin: auto 6%;
+        font-size: 15px;
+    }
+
+    .next_client_link
+    {
+        font-size: 16px;
+        padding: 2.5% 4%;
+    }
+}
+
+@media screen and (min-width: 577px)
+{
+    .business_section:hover .business_content 
+    {
+        padding-top: 14%;
+        height: 34%;
+    }
+
+    .business_title, .business_link
+    {
+        font-size: 13px;
+    }
+
+    .business_text li
+    {
+        font-size: 12px;
+    }
+
+    .business_text
+    {
+        margin-top: 10%;
+    }
+
+    .terannum_logo
+    {
+        width: 28%;
+    }
+
+    .header_icon
+    {
+        width: 3%;
+    }
+
+    .nav 
+    {
+        padding: 3% 4%;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .terannum_logo
+    {
+        width: 22%;
+    }
+
+    .header_icon
+    {
+        width: 2.5%;
+    }
+
+    .business_section:hover .business_content 
+    {
+        padding-top: 10%;
+        height: 34%;
+    }
+
+    .business_title, .business_link
+    {
+        font-size: 15px;
+    }
+
+    .business_text li
+    {
+        font-size: 13px;
+    }
+
+    .business_text
+    {
+        margin-top: 8%;
+    }
+}
+
+@media screen and (min-width: 992px)
+{
+    .terannum_logo
+    {
+        width: 20%;
+    }
+
+    .header_icon
+    {
+        width: 2.4%;
+    }
+
+    .business_title, .business_link
+    {
+        font-size: 16px;
+    }
+
+    .business_text li
+    {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .terannum_logo
+    {
+        width: 16%;
+    }
+
+    .header_icon
+    {
+        width: 2%;
+    }
+
+    .nav 
+    {
+        padding: 1.8% 4%;
+    }
+}
+
+@media screen and (max-width: 576px) and (max-height: 600px)
+{
+    .business_sections_container
+    {
+        min-height: 720px;
+    }
+
+    .header 
+    {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 576px)
+{
+    #query_jamie_section__1__img {
+        width: 100%;
+    }
+
+    #query_jamie_section__2__img 
+    {
+        margin: -18% 0 0;
+        width: 100% !important;
+    }
+
+    #spocket_section__1__img_1
+    {
+        padding: 10% 0;
+    }
+
+    #spocket_section__1__img_2 img 
+    {
+        width: 60%;
+    }
+
+    #spocket_section__2__content
+    {
+        padding: 20% 0 15%;
+    }
+
+    #spocket_section__2__img
+    {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    #spocket_section__3__img 
+    {
+        width: 80%;
+    }
+
+    #spocket_section__4__img
+    {
+        width: 80% !important;
+        padding: 20% 0;
+    }
+
+    #one_mb_section__1__img 
+    {
+        width: 150% !important;
+        margin-left: -25%;
+        padding: 22% 0 15%;
+    }
+
+    #one_mb_section__1__content
+    {
+        padding-bottom: 20%;
+    }
+
+    #get_kepture_section__1__img
+    {
+        width: 80% !important;
+        padding: 10% 0;
+    }
+
+    #get_kepture_section__1__content
+    {
+        padding-bottom: 20%;
+    }
+
+    #get_kepture_section__2__img
+    {
+        width: 130% !important;
+        margin-left: -15%;
+    }
+
+    #go_swag_section__1__content
+    {
+        padding: 8% 0 10%;
+    }
+
+    #social_pomodoro_section__1__content
+    {
+        padding: 24% 0 15%;
+    }
+
+    #social_pomodoro_section__1__img
+    {
+        width: 150% !important;
+        margin-left: -25%;
+    }
+
+    #social_pomodoro_section__2__img
+    {
+        width: 180% !important;
+        margin-left: -30%;
+    }
+
+    #mpay_section__1__img 
+    {
+        width: 130% !important;
+        margin-left: -15%;
+        padding: 15% 0;
+    }
+
+    #mpay_section__1
+    {
+        background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/mpay/mpay_4.svg");
+    }
+
+    #mpay_section__1__content
+    {
+        padding-bottom: 15%;
+    }
+
+    #zoom_section__1__vid
+    {
+        padding: 20% 0;
+    }
+
+    #zoom_section__1__content
+    {
+        padding-bottom: 15%;
+    }
+
+    #zoom_section__2__img_container 
+    {
+        width: 60%;
+        padding: 20% 0;
+    }
+
+    #samsung_malaysia_section__2__img
+    {
+        padding: 0;
+    }
+
+    #samsung_malaysia_section__2__content
+    {
+        padding: 20% 0 15%;
+    }
+
+    #lifecal_section__1
+    {
+        flex-direction: column;
+    }
+
+    #lifecal_section__1__img
+    {
+        width: 85% !important;
+        margin: 15% auto;
+    }
+
+    #lifecal_section__1__content
+    {
+        margin: auto auto 10%;
+    }
+
+    #lifecal_section__2__img
+    {
+        width: 140% !important;
+        margin-left: -20%;
+    }
+
+    #mbg_fruits_section__2
+    {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    #mbg_fruits_section__2__content, #mbg_fruits_section__3__content
+    {
+        padding: 18% 0 10%;
+    }
+
+    #mbg_fruits_section__2__img
+    {
+        margin: auto;
+    }
+
+    #lion_section__1__content
+    {
+        padding: 20% 0 10%;
+    }
+
+    #lion_section__1__img
+    {
+        width: 120% !important;
+        margin-left: -10%;
+    }
+
+    #armygrade_section__2
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    #armygrade_section__2__content
+    {
+        padding: 15% 0 10%;
+    }
+
+    #armygrade_section__2__img
+    {
+        padding: 0;
+    }
+
+    #mbo_cinemas_section__1__img
+    {
+        width: 140% !important;
+        margin-left: -20%;
+    }
+
+    #mbo_cinemas_section__2__content
+    {
+        padding: 15% 0;
+    }
+
+    #varun_chibber_section__2__content, #varun_chibber_section__5__content, #varun_chibber_section__6__content
+    {
+        padding: 15% 0;
+    }
+
+    #varun_chibber_section__3__img
+    {
+        width: 150% !important;
+        margin-left: -25%;
+    }
+
+    #varun_chibber_section__3__content
+    {
+        padding: 10% 0 15%;
+    }
+
+    #instaplan_section__1__content
+    {
+        padding: 15% 0 0%;
+    }
+    
+
+    #scorch_art_section__2__content
+    {
+        padding: 20% 0;
+    }
+
+    #scorch_art_section__2__img
+    {
+        width: 85% !important;
+        margin: auto;
+    }
+    
+    #scorch_art_section__3__img
+    {
+        padding: 5% 0;
+        width: 85% !important;
+        margin: auto;
+    }
+
+    #neoma_hair_section__2__content
+    {
+        padding: 20% 0 5%;
+    }
+
+    #neoma_hair_section__3__img_2
+    {
+        width: 110% !important;
+        left: -5%;
+        top: 6%
+    }
+
+    #neoma_hair_section__4__img_container
+    {
+        flex-direction: column-reverse;
+    }
+
+    #neoma_hair_section__4__img_1 img
+    {
+        width: 130% !important;
+        margin-left: -15%;
+    }
+
+    #neoma_hair_section__5__img
+    {
+        width: 90% !important;
+    }
+
+    #neoma_hair_section__6__img 
+    {
+        width: 136% !important;
+        margin-left: -18%;
+    }
+
+    #neoma_hair_section__8__img
+    {
+        width: 136% !important;
+        margin-left: -18%;
+    }
+
+    #lafayette_luxury_section__1__img
+    {
+        width: 70% !important;
+    }
+
+    #lafayette_luxury_section__2__img_2
+    {
+        margin-top: 4%;
+        width: 100%;
+    }
+
+    #lafayette_luxury_section__5__img_container
+    {
+        flex-direction: column-reverse;
+    }
+
+    #lafayette_luxury_section__5__img_2
+    {
+        margin: 0 -5% 0 5%;
+    }
+
+    #lafayette_luxury_section__7__img
+    {
+        margin-top: 0;
+    }
+
+    #eyekraft_section__2__content, #eyekraft_section__3__content
+    {
+        padding: 15% 0 10%;
+    }
+
+    #eyekraft_section__3__img_container
+    {
+        width: 85%;
+    }
+
+    #being_human_section__1__img_2, #being_human_section__1__img_3
+    {
+        width: 80% !important;
+        margin: auto;
+    }
+
+    #being_human_section__2__content
+    {
+        padding: 15% 0;
+    }
+
+    #being_human_section__2__img_1, #being_human_section__3__img_3
+    {
+        width: 100%;
+    }
+
+    #being_human_section__2__img_grid_1
+    {
+        width: 100%;
+        padding: 10% 0;
+    }
+
+    #being_human_section__3__img_container
+    {
+        flex-direction: column-reverse;
+    }
+
+    #being_human_section__3__img_1
+    {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40%;
+    }
+
+    #being_human_section__3__img_2
+    {
+        left: 20%;
+        top: 62%;
+        width: 70% !important;
+        margin: 0;
+    }
+
+    #sforce_section__1__content
+    {
+        padding: 10% 0 15%;
+    }
+
+    #sforce_section__2__img
+    {
+        width: 110% !important;
+        margin-left: -5%;
+    }
+
+    #sforce_section__2__content
+    {
+        padding: 15% 0;
+    }
+
+    #airowater_section__2__content
+    {
+        padding: 20% 0 15%;
+    }
+
+    #airowater_section__2__img
+    {
+        padding: 0;
+    }
+
+    #dreamy_bars_hero__image
+    {
+        background-position-x: 25%;
+    }
+
+    #dreamy_bars_section__1__img
+    {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    #dreamy_bars_section__1__img img
+    {
+        width: 100%;
+    }
+
+    #dreamy_bars_section__1__content
+    {
+        padding: 20% 0 15%;
+    }
+
+    #pride_lighting_hero__image
+    {
+        background-position: 10%;
+    }
+
+    #pride_lighting_section__1__content
+    {
+        padding: 15% 0;
+    }
+
+    #fuel_formula_hero__image
+    {
+        background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/fuel_formula/fuel_formula_7.png");
+    }
+
+    #fuel_formula_section__1__img
+    {
+        width: 190% !important;
+        margin-left: -45%;
+    }
+
+    #fuel_formula_section__2__content
+    {
+        padding: 15% 0 10%;
+    }
+
+    #fuel_formula_section__3__img_2
+    {
+        order: 1
+    }
+
+    #fuel_formula_section__3__img_1
+    {
+        order: 2;
+    }
+
+    #fuel_formula_section__3__img_3
+    {
+        order: 3;
+    }
+
+    #fuel_formula_section__3__img_2 img
+    {
+        margin: auto;
+    }
+
+    #aventi_hero__image
+    {
+        background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/public_relations/aventi/aventi_14.jpg");
+    }
+
+    #aventi_section__1__img_container
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        justify-content: left;
+        padding: 10% 0 16%;
+    }
+
+    #aventi_section__1__img_container .client_section__image
+    {
+        width: 40% !important;
+        padding-top: 6%;
+    }
+
+    #aventi_section__1__img_4
+    {
+        order: 1;
+        margin: 0 !important;
+    }
+
+    #aventi_section__1__img_5
+    {
+        order: 2;
+        margin: 0 0 0 4% !important;
+    }
+
+    #aventi_section__1__img_2
+    {
+        order: 3;
+        margin: 0 0 0 14% !important;
+    }
+
+    #aventi_section__1__img_1
+    {
+        order: 4;
+        margin: 0 0 0 6% !important;
+    }
+
+    #aventi_section__1__img_6
+    {
+        order: 5;
+        margin: 0 !important;
+    }
+
+    #aventi_section__1__img_3
+    {
+        order: 6;
+        margin: 0 0 0 4% !important;
+    }
+
+    #aventi_section__1__img_container .client_section__image:nth-of-type(2) img
+    {
+        width: 140%;
+        margin-left: -20%;
+    }
+
+    #aventi_section__2
+    {
+        flex-direction: column-reverse;
+    }
+
+    #aventi_section__2__img
+    {
+        width: 50% !important;
+        margin: auto;
+    }
+    
+    #aventi_section__2__content
+    {
+        padding: 15% 0;
+    }
+
+    #aventi_section__3__img
+    {
+        padding: 10% 0;
+        width: 85% !important;
+        margin: auto;
+    }
+
+    #aventi_section__3__content
+    {
+        padding: 6% 0 12%;
+    }
+
+    #aventi_section__4__img_container
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #aventi_section__4__img_1
+    {
+        width: 40% !important;
+        margin-left: 15%;
+    }
+
+    #aventi_section__4__img_2
+    {
+        width: 40% !important;
+        margin: 40% auto auto -10%;
+    }
+
+    #aventi_section__4__img_3
+    {
+        width: 40% !important;
+        margin: 28% -12% auto 10%;
+    }
+
+    #aventi_section__4__img_4
+    {
+        width: 60% !important;
+        margin: 14% 0;
+    }
+
+    #jsf_section__1__img
+    {
+        width: 220% !important;
+        margin-left: -60%;
+    }
+
+    #jsf_section__2__content
+    {
+        padding: 20% 0 15%;
+    }
+
+    #jsf_section__2__img
+    {
+        width: 120% !important;
+        margin-left: -10%;
+    }    
+
+    #jsf_section__3__img_container
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 15% 0 0;
+    }
+
+    #jsf_section__3__img_container .client_section__image
+    {
+        align-self: flex-end;
+    }
+
+    #jsf_section__3__img_2
+    {
+        order: 1;
+        margin: 0 0 1%;
+        width: 40% !important;
+    }
+
+    #jsf_section__3__img_3
+    {
+        order: 2;
+        width: 58% !important;
+    }
+
+    #jsf_section__3__img_1
+    {
+        order: 3;
+        width: 65% !important;
+        margin-top: 2%;
+    }
+
+    #arjun_meghe_section__1__img
+    {
+        margin-left: 5%;
+    }
+
+    #arjun_meghe_section__1__content
+    {
+        padding: 20% 0 15%;
+    }
+
+    #arjun_meghe_section__2__img_1
+    {
+        order: 3;
+        width: 88% !important;
+        margin: 32% 6% 0;
+    }
+
+    #arjun_meghe_section__2__img_2
+    {
+        order: 1;
+        width: 136% !important;
+        margin-left: -7%;
+    }
+
+    #arjun_meghe_section__2__img_3
+    {
+        order: 2;
+        margin: -35% 0 0;
+    }
+
+    #insaniyat_foundation_section__1
+    {
+        margin-top: 0;
+    }
+
+    #insaniyat_foundation_section__2__content
+    {
+        padding: 15% 0;
+    }
+
+    #insaniyat_foundation_section__3__img_1
+    {
+        margin-top: 15%;
+        width: 90% !important;
+    }
+
+    #insaniyat_foundation_section__3__img_2
+    {
+        width: 90% !important;
+        margin-top: 25%;
+    }
+
+    .client_section__tech_stack__logos_container
+    {
+        width: 86%;
+        justify-content: center;
+    }
+
+    .client_section__tech_stack__logo
+    {
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        padding: 0 2.5%;
+    }
+
+    .woomio_logo
+    {
+        width: 11.5vw;
+    }
+
+    .php_logo
+    {
+        width: 12vw;
+    }
+    
+    .google_adwords_logo, .wordpress_logo, .corejs_logo, .google_adsense_logo, .apple_pay_logo, .visa_logo, .ajax_logo
+    {
+        width: 16vw;
+    }
+
+    .google_analytics_logo, .font_awesome_logo, .google_workspace_logo, .google_cloud_logo, .google_domains_logo
+    {
+        width: 38vw;
+    }
+
+    .google_fonts_logo, .google_maps_logo
+    {
+        width: 36vw;
+    }
+
+    .cloudfare_logo, .tag_manager_logo, .stackpath_logo
+    {
+        width: 32vw;
+    }
+
+    .whatsapp_logo, .unicommerce_logo
+    {
+        width: 10vw;
+    }
+
+    .facebook_logo, .google_logo, .lodash_logo, .facebook_signal_logo
+    {
+        width: 8vw;
+    }
+
+    .woo_commerce_logo , .zoho_crm_logo, .elementor_logo, .apache_logo, .opencart_logo, .ubuntu_logo, .send_grid_logo, .go_daddy_logo, .mailchimp_logo, .mandrill_logo, .paypal_logo, .python_logo
+    {
+        width: 28vw;
+    }
+
+    .html_logo, .cdn_js_logo, .jquery_logo, .hotjar_logo, .amazon_logo, .amazon_route_logo, .google_dns_logo
+    {
+        width: 20vw;
+    }
+
+    .netlify_logo, .firebase_logo, .shopify_logo
+    {
+        width: 24vw;
+    }
+
+    .react_logo, .mastercard_logo
+    {
+        width: 14vw;
+    }
+
+    .nginx_logo, .stripe_logo, .google_pay_logo
+    {
+        width: 18vw;
+    }
+
+    .moment_logo
+    {
+        width: 22vw;
+    }
+}
+
+@media screen and (min-width: 576px)
+{
+}
+
+@media screen and (min-width: 768px)
+{
+    
+}
+
+@media screen and (min-width: 992px)
+{
+    
+}
+
+@media screen and (min-width: 1200px)
+{
+    
+}

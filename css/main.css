@@ -1,0 +1,1757 @@
+@font-face 
+{
+    font-family: SalmaAlfasans;
+    src: url("../font/salma-font-family/SalmaAlfasans\ Regular.otf");
+}
+
+@font-face 
+{
+    font-family: SalmaAlfasans_SemiBold;
+    src: url("../font/salma-font-family/SalmaAlfasans\ SemiBold.otf");
+}
+
+@font-face 
+{
+    font-family: SalmaAlfasans_ExtraBold;
+    src: url("../font/salma-font-family/SalmaAlfasans\ ExtraBold.otf");
+}
+
+@font-face 
+{
+    font-family: SalmaAlfasans_Thin;
+    src: url("../font/salma-font-family/SalmaAlfasans\ Thin.otf");
+}
+
+@font-face 
+{
+    font-family: SalmaAlfasans_Light;
+    src: url("../font/salma-font-family/SalmaAlfasans\ Light.otf");
+}
+
+@font-face 
+{
+    font-family: SalmaAlfasans_Medium;
+    src: url("../font/salma-font-family/SalmaAlfasans\ Medium.otf");
+}
+
+@font-face 
+{
+    font-family: Halogen_Bold;
+    src: url("../font/halogen-bold.otf");
+}
+
+@font-face 
+{
+    font-family: Bebas_Neue_Bold;
+    src: url("../font/BebasNeue\ Bold.otf");
+}
+
+@font-face 
+{
+    font-family: Helvetica_Neue;
+    src: url("../font/Helvetica\ Neue\ Medium\ Extended.otf");
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.mobile
+{
+    display: none;
+}
+
+.footer
+{
+    width: 100%;
+    background-color: #0B0B0B;
+    display: flex;
+    justify-content: flex-start;
+    padding: 9% 4% 6% 8%;
+}
+
+.footer_section_1
+{
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer_section_2
+{
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer_caption
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 130%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_caption_text
+{
+    display: block;
+}
+
+.footer_bold_caption
+{
+    font-family: "SalmaAlfasans_SemiBold";
+    font-weight: bolder;
+}
+
+.footer_button
+{
+    color: #026F8D;
+    font-family: "SalmaAlfasans_Medium";
+    font-size: 16px;
+    padding: 2% 4%;
+    border: 1px solid #026F8D;
+    background: transparent;
+    cursor: pointer;
+}
+
+.footer_button:hover
+{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.footer_links_container
+{
+    display: flex;
+    justify-content: left;
+}
+
+.footer_link_grid
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2.2% 0;
+}
+
+.footer_links_title
+{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Medium";
+    font-size: 12px;
+    padding-bottom: 9%;
+    letter-spacing: 0.5px;
+}
+
+.footer_links_set ul
+{
+    list-style: none;
+}
+
+.footer_links_set ul li
+{
+    padding: 2.2% 0;
+}
+
+.footer_link, .footer_link:visited, .footer_link:link, .footer_link:active
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer_links_column
+{
+    width: 33%;
+}
+
+.footer_link_logo
+{
+    width: 10%;
+}
+
+.footer_link_logo img
+{
+    width: 100%;
+    max-height: 12px;
+    min-height: 12px;
+}
+
+.footer_link_name
+{
+    width: 80%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.copyright_text
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer_button_container
+{
+    margin-top: 16%;
+}
+
+.footer_section_3
+{
+    display: none;
+    width: 76%;
+    margin-top: 20%;
+}
+
+.footer_social_links_icons
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8%;
+    width: 70%;
+}
+
+.footer_social_links
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 12%;
+}
+
+.footer_social_links_title
+{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_address_title
+{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 13px;
+    padding-bottom: 5%;
+    letter-spacing: 0.5px;
+}
+
+.footer_address_text
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 13.5px;
+    padding-bottom: 9%;
+    letter-spacing: 0.6px;
+    line-height: 150%;
+}
+
+.footer_address
+{
+    padding-bottom: 8%;
+    margin-bottom: 12%;
+    border-bottom: solid 0.5px rgba(255,255,255,.25);
+}
+
+.header
+{
+    width: 100%;
+    background-color: #0B0B0B;
+    height: 85vh;
+    padding: 5vh 0 10vh;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -100%;
+    overflow: hidden;
+    transition: right 0.8s ease;
+}
+
+.header_icons
+{
+    display: flex;
+    width: 92%;
+    justify-content: flex-end;
+    margin: 0.2% 4%;
+}
+
+.header_close_button
+{
+    display: flex;
+    width: 1.8%;
+}
+
+.header_close_button button
+{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header_button
+{
+    color: #026F8D;
+    font-family: "SalmaAlfasans_Medium";
+    font-size: 22px;
+    padding: 4% 10%;
+    border: 1px solid #026F8D;
+    background: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.header_button:hover
+{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.header_menu_links_set
+{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    margin: 10% 1% 8% 10%;
+    cursor: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/icons/cursor.png"), auto;
+    padding: 4% 0 2%;
+}
+
+.header_menu_link
+{
+    margin-right: 6%;
+}
+
+.header_menu_link p
+{
+    font-size: 60px;
+}
+
+.header_menu_link a, .header_menu_link a:link, .header_menu_link a:visited
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.header ::-webkit-scrollbar 
+{
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.header_details
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 78%;
+}
+
+.header_details_section_1
+{
+    width: 30%
+}
+
+.header_details_section_2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.header_button_caption
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    line-height: 170%;
+    margin-bottom: 5%;
+}
+
+.header_address_title, .header_contact_title
+{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Light";
+    font-size: 13px;
+    padding-bottom: 6%;
+    letter-spacing: 0.5px;
+}
+
+.header_address_text, .header_contact_text
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    line-height: 170%;
+    margin-bottom: 5%;
+}
+
+.header_contact_text a:link, .header_contact_text a:visited, .header_contact_text a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8% 4%;
+    background: transparent;
+    top: 0;
+    left: 0;
+    width: 92%;
+}
+
+.terannum_logo_mobile
+{
+    display: none;
+    width: 20%;
+}
+
+.terannum_logo
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 16%;
+    position: relative;
+    z-index: 1;
+}
+
+.terannum_logo img
+{
+    width: 100%;
+}
+
+.terannum_title, .terannum_title:link, .terannum_title:active, .terannum_title:visited
+{
+    font-family: "Halogen_Bold";
+    letter-spacing: 3px;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    margin: 1em 0.8em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.terannum_icon 
+{
+    width: 1.4vw;
+    display: flex;
+    align-items: center;
+}
+
+.terannum_icon img 
+{
+    width: 100%;
+    display:block;
+}
+
+.header_icon
+{
+    width: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.header_icon span
+{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.business_sections_container
+{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.business_section
+{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .business_section img 
+{
+    width: 100%;
+    display: block;
+} */
+
+#public_relations_landing
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/landing/public_relations.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#online_solutions_landing
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/landing/online_solutions.jpg");
+    background-size: cover;
+    background-position: 50% 5%;
+    background-repeat: no-repeat;
+}
+
+#marketing_landing
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/landing/marketing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.business_content 
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    height: 12%;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.business_section:hover .business_content 
+{
+    height: 38%;
+    justify-content: flex-start;
+    padding-top: 7%;
+}
+
+.business_title
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Light";
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+  
+.business_text
+{
+    transition: .5s ease;
+    display: none;
+    margin: 6% 5%;
+    height: 45%;
+}
+
+.business_section:hover .business_text
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.business_section:hover .business_link
+{
+    display: block;
+}
+
+.business_section:hover .business_text
+{
+    margin-bottom: 4%;
+}
+
+
+.business_text li
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 15px;
+    padding-bottom: 6px;
+    letter-spacing: 1px;
+    line-height: 150%;
+    list-style: none;
+}
+
+.business_link
+{
+    font-family: "SalmaAlfasans";
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #026F8D;
+    opacity: 1;
+    padding-bottom: 0.5%;
+    border-bottom: 1px solid #026F8D;
+    transition: .5s ease;
+    display: none;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.business_link a:link, .business_link a:visited
+{
+    text-decoration: none;
+    color: #026F8D;
+}
+
+.homepage 
+{
+    background-color: #000000;
+}
+
+.hero__section
+{
+    height: 110vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    overflow: hidden;
+}
+
+#public_relations_homepage_1
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_2.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#public_relations_homepage_2
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_3.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#public_relations_homepage_3
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_1.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#public_relations_homepage_4
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/public_relations/PR_4.png");
+    background-color: #6b6363;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#online_solutions_homepage_1
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_1.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#online_solutions_homepage_2
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_5.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#online_solutions_homepage_3
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_1.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#online_solutions_homepage_4
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_4.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#online_solutions_homepage_5
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_2.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#online_solutions_homepage_6
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/online_solutions/OS_3.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#marketing_homepage_1
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/marketing/M_2.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#marketing_homepage_2
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/marketing/M_1.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#marketing_homepage_3
+{
+    background: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/others/homepage/marketing/M_1.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.home_page_overlay
+{
+    position: absolute;
+    height: 110vh;
+    width: 32%;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home_page_hero__title
+{
+    width: 40%;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 46px;
+    letter-spacing: 0.5px;
+    line-height: 125%;
+    font-weight: 600;
+    margin-bottom: 16%;
+}
+
+.home_page__description_title
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans";
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+
+.home_page__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 150%;
+}
+
+.home_page_hero__content
+{
+    padding: 10% 14% 2%;
+}
+
+.home_page__description_grid
+{
+    margin-top: 12%;
+}
+
+.showcase_section
+{
+    width: 90%;
+    background: #000000;
+    padding: 12% 0 10% 10%;
+    overflow: hidden;
+}
+
+.showcase_caption
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans";
+    font-size: 38px;
+    letter-spacing: 0.5px;
+    line-height: 130%;   
+}
+
+.showcase_link
+{
+    font-family: "SalmaAlfasans";
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #026F8D;
+    opacity: 1;
+    padding: 2% 0 0.5%;
+    border-bottom: 1px solid #026F8D;
+    width: fit-content;
+}
+
+.showcase_link a:link, .showcase_link a:visited
+{
+    text-decoration: none;
+    color: #026F8D;
+}
+
+.showcase_gallery
+{
+    margin-top: 2%;
+    padding: 3% 5% 0 0;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.pr_showcase_section .showcase_gallery, .os_showcase_section .showcase_gallery, .pr_showcase_section .showcase_tile a img, .os_showcase_section .showcase_tile a img
+{
+    cursor: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/icons/cursor.png"), auto;
+}
+
+.showcase_section ::-webkit-scrollbar 
+{
+    width: 0px;
+    background: transparent;
+}
+
+.showcase_tile
+{
+    width: fit-content;
+}
+
+.showcase_tile img 
+{
+    width: 340px;
+    background: #BBBBBB;
+    height: 310px;
+}
+
+.showcase_tile p
+{
+    margin-top: 3%;
+}
+
+.showcase_tile a
+{
+    width: fit-content;
+}
+
+.showcase_tile p a, .showcase_tile p a:link, .showcase_tile p a:visited
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.main_content_section
+{
+    width: 52%;
+    background: transparent radial-gradient(closest-side at 48%, #02404E 20%, #000D10 180%) 0% 0% no-repeat padding-box;
+    padding: 12% 24%;
+    height: fit-content;
+}
+
+.main_content
+{
+    width: 90%;
+    padding: 0 6%;
+    color: #026F8D;
+    font-family: "SalmaAlfasans";
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    line-height: 135%;
+}
+
+.secondary_content
+{
+    width: 85%;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 180%;
+    margin-top: 8%;
+    padding: 0 6%;
+}
+
+.icons_section
+{
+    width: 100%;
+    margin-top: 16%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_grid
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.icon_grid img
+{
+    width: 90%;
+    max-width: 60px;
+    max-height: 60px;
+    align-self: center;
+    height: 60px;
+}
+
+.icon_grid p
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin: 20% auto auto;
+    text-transform: uppercase;
+    text-align: center;
+    width: 70%;
+    line-height: 160%;
+}
+
+.technology_section
+{
+    background-color: #FFFFFF;
+    width: 60%;
+    padding: 10% 20%;
+}
+
+.technology_title
+{
+    text-transform: uppercase;
+    color: #026F8D;
+    font-family: "SalmaAlfasans_ExtraBold";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.technology_text
+{
+    color: #434343;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 18px;
+    margin-top: 6%;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home_page__tech_stack__logos_container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.home_page__tech_stack__logo
+{
+    margin: 0 2% 3%;
+    display: flex;
+    align-items: center;
+}
+
+.home_page__tech_stack__logo img
+{
+    width: 100%;
+}
+
+.initial_caption_section
+{
+    background: #000000;
+    width: 70%;
+    padding: 15% 15% 12%;
+}
+
+.initial_caption
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans";
+    font-size: 36px;
+    letter-spacing: 0.5px;  
+    width: 80%;  
+}
+
+.initial_caption a, .initial_caption a:link, .initial_caption a:visited
+{
+    text-decoration: none;
+    color: #026F8D;
+}
+
+.main_clients_section
+{
+    margin: -4% auto 10%;
+    width: 60%;
+}
+
+.all_clients_title
+{
+    font-family: "SalmaAlfasans";
+    font-size: 24px;
+    letter-spacing: 0.5px;  
+    text-align: center;
+    color: #000000;
+    display: none;
+    font-weight: bold;
+}
+
+.client_grid
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 8%;
+}
+
+.client_grid:nth-child(even)
+{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.client_content
+{
+    margin: 20% 8% auto;
+    width: 45%;
+}
+
+.client_grid:nth-child(even) .client_content
+{
+    margin-left: 0;
+}
+
+.client_image
+{
+    width: 55%;
+}
+
+.client_image img
+{
+    width: 100%;
+}
+
+.client_grid:nth-child(even) .client_image
+{
+    margin-left: 8%;
+}
+
+.client_title
+{
+    color: #0B0B0B;
+    font-family: "SalmaAlfasans_ExtraBold";
+    font-size: 26px;
+    margin-bottom: 8%;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.client_text
+{
+    color: #0B0B0B;
+    font-family: "SalmaAlfasans";
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8%;
+}
+
+.client_link
+{
+    font-family: "SalmaAlfasans";
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #026F8D;
+    opacity: 1;
+    padding: 2% 0 1%;
+    border-bottom: 1px solid #026F8D;
+    width: fit-content;
+}
+
+.client_link a:link, .client_link a:visited
+{
+    text-decoration: none;
+    color: #026F8D;
+}
+
+.all_clients_section
+{
+    margin: 4% auto 16%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 4%
+}
+
+.client_tile
+{
+    width: 22%;
+    margin-top: 5%;
+}
+
+.client_tile img
+{
+    width: 100%;
+}
+
+.client_tile p
+{
+    margin-top: 3%;
+    font-size: 14px;
+}
+
+.client_tile a, .client_tile a:link, .client_tile a:visited 
+{
+    color: #0B0B0B;
+    font-family: "SalmaAlfasans";
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dark_background
+{
+    background: #000000;
+}
+
+.light_background
+{
+    background: #FFFFFF;
+}
+
+
+#agency
+{
+    background: #000000;
+}
+
+.agency_content_section_1
+{
+    padding: 15% 15% 10%;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans";
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 160%;
+}
+
+.agency_content_section_1 p:nth-of-type(2)
+{
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 24px;
+}
+
+.agency_image_section_1
+{
+    width: 75%;
+    margin: auto;
+}
+
+.agency_image_section_1 img
+{
+    width: 100%;
+}
+
+.agency_content_section_2
+{
+    padding: 15% 15% 18%;
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans";
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    line-height: 150%;
+    margin: auto;
+    width: 70%;
+}
+
+.agency_content_section_2 p:nth-of-type(1)
+{
+    width: 60%;
+    margin: auto;
+}
+
+.agency_content_section_2 p:nth-of-type(2)
+{
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 20px;
+    margin: 6% auto auto;
+    width: 80%;
+    line-height: 140%;
+}
+
+.agency_stats_container
+{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 88%;
+    color: #FFFFFF;
+}
+
+.agency_stats_grid
+{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agency_stats_number
+{
+    font-size: 10vw;
+    font-family: "Bebas_Neue_Bold";
+    font-weight: bold;
+}
+
+.agency_stats_caption
+{
+    font-size: 18px;
+    width: 65%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-family: "SalmaAlfasans_Thin";
+    margin-top: 4%;
+}
+
+.agency_steps_container
+{
+    margin: 18% auto auto;
+    width: 75%;
+}
+
+.agency_steps_label_container
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.agency_steps_label
+{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: "SalmaAlfasans_Thin";
+    color: #FFFFFF;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.agency_steps_card
+{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.agency_steps_card_section_1
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.agency_steps_card_title
+{
+    font-size: 64px;
+    letter-spacing: 1px;
+    font-family: "SalmaAlfasans";
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 50%;
+    line-height: 125%;
+}
+
+.agency_steps_card_sub_title
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "SalmaAlfasans_Thin";
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.agency_steps_card_section_2
+{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin-top: 6%;
+}
+
+.agency_steps_content
+{
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.agency_steps_title
+{
+    text-transform: uppercase;
+    font-family: "SalmaAlfasans_Medium";
+    font-size: 12px;
+    padding-bottom: 5%;
+    letter-spacing: 0.5px;
+    line-height: 150%;
+}
+
+.agency_steps_text
+{
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    font-family: "SalmaAlfasans_Thin";
+    line-height: 150%;
+}
+
+.agency_image_section_2
+{
+    width: 75%;
+    margin: 10% auto;
+}
+
+.agency_image_section_2 img
+{
+    width: 100%;
+}
+
+.agency_card_indicator
+{
+    text-align: center;
+    margin: 6% auto 10%;
+    display: none;
+}
+
+.dot 
+{
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #383737;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.active_dot 
+{
+    background-color: #BBBBBB;
+}
+
+.active_label
+{
+    color: #00A3D0;
+}
+
+.fade 
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade 
+{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade 
+{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+.slideshow
+{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+}
+
+.slideshow .slider
+{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+    top: -100%;
+    width: 200%;
+    height: 100%;
+}
+
+.slideshow .slider_image
+{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.slider_image img 
+{
+    display: block;
+    width: 100%;
+}
+
+@keyframes pr_slider
+{
+    0% 
+    {
+        top: -100%;
+        left: 0;
+    }
+
+    25% 
+    {
+        top: 0%;
+        left: 0%;
+    }
+
+    50% 
+    {
+        top: 0;
+        left: -100%;
+    }
+
+    75% 
+    {
+        top: -100%;
+        left: -100%;
+    }
+
+    100% 
+    {
+        top: -100%;
+        left: 0;
+    } 
+}
+
+#pr_slideshow .slider
+{
+    animation-name: pr_slider;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes os_slider
+{
+    0% 
+    {
+        top: -100%;
+        left: 0;
+    }
+
+    20% 
+    {
+        top: -200%;
+        left: 0%;
+    }
+
+    40% 
+    {
+        top: -200%;
+        left: -100%;
+    }
+
+    60% 
+    {
+        top: -100%;
+        left: -100%;
+    }
+
+    80%
+    {
+        top: 0;
+        left: -100%;
+    }
+
+    100% 
+    {
+        top: 0;
+        left: 0;
+    } 
+}
+
+#os_slideshow .slider
+{
+    animation-name: os_slider;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes m_slider
+{
+    0% 
+    {
+        top: 0;
+        left: -100%;
+    }
+
+    50% 
+    {
+        top: 0;
+        left: 0;
+    }
+
+    100% 
+    {
+        top: -100%;
+        left: 0;
+    } 
+}
+
+#m_slideshow .slider
+{
+    animation-name: m_slider;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+.policy
+{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.policy_container
+{
+    margin: 8% 6% 10%;
+}
+
+.policy_main_title
+{
+    color: #026F8D;
+    font-family: "SalmaAlfasans";
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 130%;
+    margin: 4% 0 3%;
+}
+
+.policy_content, .policy_block_content
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.policy_content p, .policy_block_content p
+{
+    margin: 1% 0;
+}
+
+.policy_content ul, .policy_block_content ul, .policy_content ol, .policy_block_content ol
+{
+    margin: 2% 0 2% 4%;
+}
+
+.policy_content a, .policy_content a:link, .policy_content a:active, .policy_content a:visited
+{
+    font-family: "SalmaAlfasans";
+    font-weight: bold;
+    text-decoration: none;
+    color: #026F8D;
+}
+
+.highlight_content
+{
+    font-size: 16px;
+}
+
+.subtitle_content
+{
+    font-family: "SalmaAlfasans";
+    font-weight: bold;
+    margin: 4% 0 2% !important;
+}
+
+.color_content
+{
+    font-family: "SalmaAlfasans";
+    font-weight: bold;
+    color: #026F8D;
+}
+
+.uppercase_content
+{
+    text-transform: uppercase;
+}
+
+.policy_block
+{
+    margin: 3% 0;
+}
+
+.policy_block_title
+{
+    font-family: "SalmaAlfasans";
+    font-weight: bold;
+    color: #026F8D;
+    margin-bottom: 2%;
+}
+
+.no_bullet_list
+{
+    list-style: none;
+    margin-left: 0% !important;
+}
+
+.no_bullet_list li 
+{
+    margin: 0.5% 0;
+}
+
+.client_section__next_client
+{
+    display: flex;
+    margin: auto;
+    padding: 6% 0;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.client_section__next_client .showcase_link
+{
+    font-size: 18px;
+    padding: 0.5% 0;
+}
+
+.filler_text
+{
+    margin: auto 3%;
+    color: #026F8D;
+    font-size: 18px;
+    font-family: "SalmaAlfasans";
+    font-weight: 600;
+}
+
+.next_client_link
+{
+    font-family: "SalmaAlfasans";
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #026F8D;
+    opacity: 1;
+    padding: 1% 2.5%;
+    border: 1.5px solid #026F8D;
+    width: fit-content;
+    background: transparent;
+}
+
+.next_client_link:link, .next_client_link:visited
+{
+    text-decoration: none;
+    color: #026F8D;
+}
+
+.next_client_link:hover
+{
+    background: #026F8D;
+}
+
+.next_client_link:hover
+{
+    color: #FFFFFF;
+}

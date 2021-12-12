@@ -1,0 +1,2010 @@
+.hero__image
+{
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.overlay 
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: transparent linear-gradient(0deg, #000000 0%, #00000096 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero__content
+{
+    width: 60%;
+    margin: 0% auto 0 5%;
+}
+
+.hero__title
+{
+    font-family: "SalmaAlfasans";
+    font-size: 17px;
+    letter-spacing: 1.02px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 1%;
+}
+
+.hero__description
+{
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 75px;
+    letter-spacing: -2.25px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 6%;
+}
+
+.hero__link
+{
+    font-family: "SalmaAlfasans";
+    font-size: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #026F8D;
+    opacity: 1;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #026F8D;
+    width: fit-content;
+}
+
+.hero__link a:link, .hero__link a:visited
+{
+    text-decoration: none;
+    color: #026F8D;
+}
+
+.client_section__1, .client_section__2
+{
+    width: 100%;
+}
+
+.client_section__tech_stack
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 5% 0 2%;
+}
+
+.client_section__specs
+{
+    width: 100%;
+    background-color: #000000;
+}
+
+.client_section__specs_container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 10%;
+    padding: 4% 0 6%;
+}
+
+.client_section__specs_column
+{
+    width: 28%;
+}
+
+.client_section__specs_column:first-of-type
+{
+    width: 16%;
+}
+
+.client_section__specs_column:nth-of-type(2)
+{
+    width: 20%;
+}
+
+.client_section__specs_column:first-of-type .client_section__specs_title
+{
+    margin-bottom: 20%;
+}
+
+.client_section__specs_column:nth-of-type(2) .client_section__specs_title
+{
+    margin-bottom: 15.5%;
+}
+
+.client_section__specs_title
+{
+    font-family: "SalmaAlfasans";
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-transform: uppercase;
+    margin-bottom: 12%;
+}
+
+.client_section__specs_value
+{
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.client_section__specs_set
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.client_section__specs_grid
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.client_section__specs_logo
+{
+    width: 15%;
+}
+
+.client_section__specs_logo img
+{
+    width: 100%;
+    max-height: 40px;
+    min-height: 40px;
+}
+
+.client_section__specs_name
+{
+    width: 80%;
+    font-family: "SalmaAlfasans_Thin";
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.client_section__image_container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client_section__image img
+{
+    display: block;
+    width: 100%;
+}
+
+.client_section__video video
+{
+    display: block;
+    width: 100%;
+}
+
+.client_section__image_grid
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client_section__content
+{
+    width: 34%;
+    margin: auto;
+    padding: 6% 0;
+}
+
+.client_section__title
+{
+    font-family: "SalmaAlfasans";
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: left;
+    letter-spacing: 0.56px;
+    color: #434343;
+    opacity: 1;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+.client_section__description
+{
+    font-family: "SalmaAlfasans_Light";
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: -0.24px;
+    color: #434343;
+    opacity: 1;
+    line-height: 160%;
+}
+
+.client_section__description p
+{
+    margin-bottom: 5%;
+}
+
+.client_section__tech_stack__title
+{
+    font-family: "SalmaAlfasans_Light";
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 3%;
+}
+
+.client_section__tech_stack__logos_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.client_section__tech_stack__logo
+{
+    width: 14%;
+    align-content: center;
+    padding: 0 1% 2%;
+}
+
+.client_section__tech_stack__logo img
+{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.shopify_logo
+{
+    width: 9vw;
+}
+
+.google_analytics_logo
+{
+    width: 14vw;
+}
+
+.php_logo
+{
+    width: 4.2vw;
+}
+
+.apache_logo
+{
+    width: 12vw;
+}
+
+.hotjar_logo
+{
+    width: 8vw;
+}
+
+.wordpress_logo
+{
+    width: 6vw;
+}
+
+.whatsapp_logo
+{
+    width: 4.2vw;
+}
+
+.woo_commerce_logo
+{
+    width: 12vw;
+}
+
+.facebook_logo
+{
+    width: 3.2vw;
+}
+
+.zoho_crm_logo
+{
+    width: 11vw;
+}
+
+.google_adwords_logo
+{
+    width: 7vw;
+}
+
+.elementor_logo
+{
+    width: 11vw;
+}
+
+.google_fonts_logo
+{
+    width: 12vw;
+}
+
+.nginx_logo
+{
+    width: 7vw;
+}
+
+.jquery_logo
+{
+    width: 9vw;
+}
+
+.cloudfare_logo
+{
+    width: 12.5vw;
+}
+
+.tag_manager_logo
+{
+    width: 12.5vw;
+}
+
+.facebook_signal_logo
+{
+    width: 4vw;
+}
+
+.apple_pay_logo
+{
+    width: 6.5vw;
+}
+
+.mastercard_logo
+{
+    width: 5vw;
+}
+
+.paypal_logo
+{
+    width: 9.5vw;
+}
+
+.visa_logo
+{
+    width: 6vw;
+}
+
+.stripe_logo
+{
+    width: 7.5vw;
+}
+
+.google_pay_logo
+{
+    width: 6vw;
+}
+
+.google_workspace_logo
+{
+    width: 14vw;
+}
+
+.mailchimp_logo
+{
+    width: 10.5vw;
+}
+
+.unicommerce_logo
+{
+    width: 5.5vw;
+}
+
+.html_logo
+{
+    width: 8vw;
+}
+
+.opencart_logo
+{
+    width: 12vw;
+}
+
+.corejs_logo
+{
+    width: 6.5vw;
+}
+
+.ubuntu_logo
+{
+    width: 10.5vw;
+}
+
+.amazon_route_logo
+{
+    width: 8.5vw;
+}
+
+.google_cloud_logo
+{
+    width: 13.2vw;
+}
+
+.amazon_logo
+{
+    width: 8vw;
+}
+
+.go_daddy_logo
+{
+    width: 9vw;
+}
+
+.google_logo
+{
+    width: 3vw;
+}
+
+.send_grid_logo
+{
+    width: 9vw;
+}
+
+.google_adsense_logo
+{
+    width: 7vw;
+}
+
+.react_logo
+{
+    width: 6vw;
+}
+
+.lodash_logo
+{
+    width: 3vw;
+}
+
+.stackpath_logo
+{
+    width: 10.5vw;
+}
+
+.cdn_js_logo
+{
+    width: 8vw;
+}
+
+.netlify_logo
+{
+    width: 9.5vw;
+}
+
+.mandrill_logo
+{
+    width: 11vw;
+}
+
+.google_maps_logo
+{
+    width: 12vw;
+}
+
+.firebase_logo
+{
+    width: 10vw;
+}
+
+.ajax_logo
+{
+    width: 6.5vw;
+}
+
+.moment_logo
+{
+    width: 8.5vw;
+}
+
+.python_logo
+{
+    width: 10vw;
+}
+
+.google_domains_logo
+{
+    width: 13.5vw;
+}
+
+.google_dns_logo
+{
+    width: 6.5vw;
+}
+
+.woomio_logo
+{
+    width: 4vw;
+}
+
+.font_awesome_logo
+{
+    width: 13.5vw;
+}
+
+#mpay_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/mpay/mpay_1.png");
+}
+
+#mpay_section__1
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/mpay/mpay_3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mpay_section__1__img
+{
+    width: 100%;
+    margin-left: -12%;
+}
+
+#one_mb_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/1mb/imb_hero.png");
+}
+
+#one_mb_section__1
+{
+    background: transparent linear-gradient(180deg, #29376A 0%, #3160F8 0%, #3160F8 0%, #2754E8 0%, #1C1E2F 100%) 0% 0% no-repeat padding-box;
+    overflow: hidden;
+}
+
+#one_mb_section__1__img
+{
+    width: 126%;
+    margin-left: -12%;
+    padding-top: 6%;
+}
+
+#one_mb_section__1__title
+{
+    color: #FFFFFF;
+}
+
+#one_mb_section__1__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#go_swag_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/go_swag/go_swag_hero.png");
+}
+
+#go_swag_section__1
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/go_swag/go_swag_2.svg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#go_swag_section__1__title
+{
+    color: #FFFFFF;
+}
+
+#go_swag_section__1__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#go_swag_section__2
+{
+    overflow: hidden;
+}
+
+#go_swag_section__2__img
+{
+    margin-top: -5%;
+}
+
+#google_workspace_icon
+{
+    width: 42% !important;
+}
+
+#get_kepture_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/get_kepture/get_kepture_1.png");
+}
+
+#get_kepture_section__1
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/get_kepture/get_kepture_4.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#get_kepture_section__1__img
+{
+    width: 50%;
+    padding-top: 6%;
+    margin: auto;
+}
+
+#get_kepture_section__1__title
+{
+    color: #FFFFFF;
+}
+
+#get_kepture_section__1__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#query_jamie_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/query_jamie/query_jamie_hero.png");
+}
+
+#query_jamie_section__1__img
+{
+    width: 100%;
+}
+
+#query_jamie_section__2
+{
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+#query_jamie_section__2__img
+{
+    margin: -8% auto -15% -10%;
+    width: 120%;
+}
+
+#social_pomodoro_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/social_pomodoro/social_pomodoro_hero.png");
+}
+
+#social_pomodoro_section__1__img
+{
+    margin: -5% auto -2%;
+}
+
+#social_pomodoro_section__1
+{
+    background: transparent linear-gradient(180deg, #341818 0%, #FF6767 100%) 0% 0% no-repeat padding-box;
+    overflow: hidden;
+}
+
+#social_pomodoro_section__1__title
+{
+    color: #FFFFFF;
+}
+
+#social_pomodoro_section__1__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#social_pomodoro_section__2__img
+{
+    width: 90%;
+    margin: auto;
+}
+
+#social_pomodoro_section__tech_stack
+{
+    margin-top: -5%;
+}
+
+#lion_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/lion/lion_3.jpg");
+}
+
+#lion_hero__content
+{
+    width: 50%;
+}
+
+#lion_hero__description
+{
+    font-size: 65px;
+}
+
+#lion_section__1
+{
+    background: transparent linear-gradient(180deg, #454545 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+}
+
+#lion_section__1__content
+{
+    width: 40%;
+    padding: 10% 0 6%;
+}
+
+#lion_section__1__title
+{
+    color: #FFFFFF;
+}
+
+#lion_section__1__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#lion_section__1__img
+{
+    width: 65%;
+    margin: -8% auto auto;
+}
+
+#lifecal_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/lifecal/lifecal_1.png");
+}
+
+#lifecal_hero__content
+{
+    width: 50%;
+}
+
+#lifecal_hero__description
+{
+    font-size: 65px;
+}
+
+#lifecal_section__1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#lifecal_section__1__img
+{
+    width: 40%;
+    margin: 8% 6%;
+}
+
+#lifecal_section__1__content
+{
+    width: 30%;
+    margin-left: 3%;
+}
+
+#lifecal_section__1__title
+{
+    color: #000000;
+}
+
+#armygrade_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/marketing/armygrade/armygrade_1.png");
+}
+
+#armygrade_hero__content
+{
+    width: 50%;
+}
+
+#armygrade_hero__description
+{
+    font-size: 65px;
+}
+
+#armygrade_section__1
+{
+    background: #B3BAAC;
+}
+
+#armygrade_section__2
+{
+    background: #757665;
+    width: 86%;
+    margin: 6% auto 0;
+}
+
+#armygrade_section__2__content
+{
+    padding: 10% 0 5%;
+    width: 45%;
+}
+
+#armygrade_section__2__title
+{
+    color: #FFFFFF;
+}
+
+#armygrade_section__2__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#armygrade_section__2__img
+{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 8%;
+}
+
+#armygrade_section__3
+{
+    background: #FFFFFF;
+}
+
+#samsung_malaysia_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/marketing/samsung_malaysia/samsung_malaysia_1.png");
+}
+
+#samsung_malaysia_hero__content
+{
+    width: 50%;
+}
+
+#samsung_malaysia_hero__description
+{
+    font-size: 65px;
+}
+
+#samsung_malaysia_section__2
+{
+    background: #F7F7F7;
+}
+ 
+#samsung_malaysia_section__2__img
+{
+    width: 80%;
+    margin: auto;
+    padding: 3% 0 6%;
+}
+
+#dreamy_bars_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/dreamy_bars/dreamy_bars_2.png");
+}
+
+#dreamy_bars_hero__content
+{
+    width: 40%;
+}
+
+#dreamy_bars_section__1__img
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 8% auto 2%;
+}
+
+#dreamy_bars_section__1__img img
+{
+    width: 48%;
+}
+
+#dreamy_bars_section__1__content
+{
+    width: 45%;
+}
+
+#dreamy_bars_section__2__img
+{
+    width:85%;
+    margin: 2% auto 5%;
+}
+
+#pride_lighting_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/pride_lighting/pride_lighting_1.png");
+}
+
+#pride_lighting_hero__content
+{
+    width: 45%;
+}
+
+#pride_lighting_section__1__content
+{
+    margin-top: 2%;
+    width: 38%;
+}
+
+#pride_lighting_section__2__img_1 
+{
+    width: 65%;
+}
+
+#pride_lighting_section__2__img_2
+{
+    width: 35%;
+}
+
+#airowater_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/airowater/airowater_1.png");
+}
+
+#airowater_hero__content
+{
+    width: 50%;
+}
+
+#airowater_hero__description
+{
+    font-size: 65px;
+}
+
+#airowater_section__2
+{
+    background:#F8F9FA;
+}
+
+#airowater_section__2__content
+{
+    padding-top: 8%;
+    width: 38%;
+    z-index: 1;
+}
+
+#airowater_section__2__img
+{
+    width: 70%;
+    padding: 0 15%;
+    z-index: -1;
+    background: #FFFFFF;
+}
+
+#fuel_formula_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/fuel_formula/fuel_formula_1.jpg");
+}
+
+#fuel_formula_section__2__content
+{
+    margin: 2% auto;
+}
+
+#fuel_formula_section__3
+{
+    margin: 8% auto 3%;
+}
+
+#fuel_formula_section__3__img_1
+{
+    width: 30%;
+}
+
+#fuel_formula_section__3__img_2
+{
+    width: 28%;
+}
+
+#fuel_formula_section__3__img_2 img
+{
+    margin-top: 45%;
+    margin-left: -15%;
+}
+
+#fuel_formula_section__3__img_3
+{
+    width: 42%;
+}
+
+#sforce_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/sforce/sforce_1.png");
+}
+
+#sforce_hero__content
+{
+    width: 60%;
+}
+
+#sforce_hero__description
+{
+    font-size: 65px;
+}
+
+#sforce_section__1
+{
+    background: #254252;
+}
+
+#sforce_section__1__content
+{
+    padding-top: 0;
+}
+
+#sforce_section__1__title
+{
+    color: #FFFFFF;
+}
+
+#sforce_section__1__description
+{
+    color: #FFFFFF;
+    font-family: 'SalmaAlfasans_Thin';
+}
+
+#sforce_section__2__content
+{
+    margin: 2% auto;
+}
+
+#lafayette_luxury_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/lafayette_luxury/lafayette_luxury_1.png");
+}
+
+#lafayette_luxury_hero__content
+{
+    width: 55%;
+}
+
+#lafayette_luxury_hero__description
+{
+    font-size: 65px;
+}
+
+#lafayette_luxury_section__1__content
+{
+    padding: 4% 0 8%;
+}
+
+#lafayette_luxury_section__1__img
+{
+    margin: 6% auto 4%;
+    width: 30%;
+}
+
+#lafayette_luxury_section__2__img_1
+{
+    width: 37%;
+}
+
+#lafayette_luxury_section__2__img_2
+{
+    width: 60%;
+}
+
+#lafayette_luxury_section__3
+{
+    margin-top: 4%;
+}
+
+#lafayette_luxury_section__3__content
+{
+    margin: 6% auto;
+    width: 30%;
+}
+
+#lafayette_luxury_section__5
+{
+    background: #D5D5D5;
+}
+
+#lafayette_luxury_section__5__img_container
+{
+    justify-content: center;
+    padding: 5% 0;
+}
+
+#lafayette_luxury_section__5__img_1
+{
+    width: 64%;
+}
+
+#lafayette_luxury_section__5__img_2
+{
+    width: 29%;
+    margin-left: -5%;
+    margin-bottom: -3%;
+}
+
+#lafayette_luxury_section__6
+{
+    overflow: hidden;
+}
+
+#lafayette_luxury_section__6__img_1
+{
+    width: 60.2%;
+}
+
+#lafayette_luxury_section__6__img_2
+{
+    width: 40.2%;
+}
+
+#lafayette_luxury_section__7__img
+{
+    width: 80%;
+    margin: 8% auto 5%;
+}
+
+#eyekraft_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/eyekraft/eyekraft_1.jpg");
+}
+
+#eyekraft_section__2__content
+{
+    margin: 3% auto;
+    width: 32%;
+}
+
+#eyekraft_section__3__img_container
+{
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+#eyekraft_section__3__img_container .client_section__image
+{
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+#eyekraft_section__3__content
+{
+    width: 30%;
+    padding-bottom: 1%;
+}
+
+#arjun_meghe_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/public_relations/arjun_meghe/arjun_meghe_1.jpg");
+}
+
+#arjun_meghe_hero__content
+{
+    width: 35%;
+}
+
+#arjun_meghe_hero__description
+{
+    font-size: 65px;
+}
+
+#arjun_meghe_section__1__img
+{
+    width: 60%;
+    margin: 10% auto 0;
+}
+
+#arjun_meghe_section__1__content
+{
+    width: 40%;
+}
+
+#arjun_meghe_section__2
+{
+    background: #E0E0E0;
+}
+
+#arjun_meghe_section__2__img_container
+{
+    position: relative;
+    overflow: hidden;
+    padding: 8% 0 5%;
+} 
+
+#arjun_meghe_section__2__img_1
+{
+    width: 22%;
+    margin-left: 6%;
+}
+
+#arjun_meghe_section__2__img_2
+{
+    width: 42%;
+    margin-left: -10%;
+    z-index: 3;
+}
+
+#arjun_meghe_section__2__img_3
+{
+    width: 44%;
+    margin: 25% 6% auto -18%;
+    z-index: 2;
+}
+
+#jsf_page
+{
+    background: #000000;
+}
+
+#jsf_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/public_relations/jsf/jsf_1.png");
+}
+
+#jsf_hero__content
+{
+    width: 45%;
+}
+
+#jsf_hero__description
+{
+    font-size: 65px;
+}
+
+#jsf_section__2, #jsf_section__3
+{
+    background: #000000;
+}
+
+#jsf_section__2__content
+{
+    padding: 8% 0 6%;
+    width: 36%;
+}
+
+#jsf_section__2__title
+{
+    color: #FFFFFF;
+}
+
+#jsf_section__2__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#jsf_section__2__img
+{
+    width: 50%;
+    margin: auto;
+}
+
+#jsf_section__3
+{
+    padding-top: 12%;
+}
+
+#jsf_section__3__img_container
+{
+    margin-left: 10%;
+    width: 90%;
+}
+
+#jsf_section__3__img_1
+{
+    width: 28%;
+}
+
+#jsf_section__3__img_2
+{
+    width: 26%;
+}
+
+#jsf_section__3__img_3
+{
+    margin-left: 2%;
+    width: 40%;
+}
+
+#insaniyat_foundation_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/public_relations/insaniyat_foundation/insaniyat_foundation_1.png");
+}
+
+#insaniyat_foundation_hero__content
+{
+    width: 48%;
+}
+
+#insaniyat_foundation_hero__description
+{
+    font-size: 65px;
+}
+
+#insaniyat_foundation_section__1
+{
+    margin: 8% auto 4%;
+}
+
+#insaniyat_foundation_section__1__img_1
+{
+    width: 50%;
+}
+
+#insaniyat_foundation_section__1__img_2
+{
+    width: 40%;
+}
+
+#insaniyat_foundation_section__2__content
+{
+    width: 44%;
+}
+
+#insaniyat_foundation_section__3
+{
+    background: #000000;
+    padding-top: 12%;
+    margin-bottom: -65%;
+}
+
+#insaniyat_foundation_section__3__img_1
+{
+    width: 70%;
+    margin: auto;
+}
+
+#insaniyat_foundation_section__3__img_2
+{
+    width: 80%;
+    margin: 10% auto auto;
+}
+
+#insaniyat_foundation_section__4
+{
+    background: #FFFFFF;
+    margin-bottom: -15%;
+    overflow: hidden;
+}
+
+#insaniyat_foundation_section__4__img
+{
+    visibility: hidden;
+    margin-bottom: -40%;
+}
+
+#neoma_hair_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/neoma_hair/neoma_hair_1.png");
+}
+
+#neoma_hair_hero__content
+{
+    width: 48%;
+}
+
+#neoma_hair_hero__description
+{
+    font-size: 65px;
+}
+
+#neoma_hair_section__2
+{
+    background: #B47F5E;
+}
+
+#neoma_hair_section__2__content
+{
+    padding: 10% 0 4%;
+}
+
+#neoma_hair_section__2__title
+{
+    color: #FFFFFF;
+}
+
+#neoma_hair_section__2__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#neoma_hair_section__3
+{
+    position: relative;
+    background: #B47F5E;
+}
+
+#neoma_hair_section__3__img_2
+{
+    position: absolute;
+    top: 0%;
+    left: 23%;
+    width: 54%;
+}
+
+#neoma_hair_section__4__img_1
+{
+    width: 50%;
+}
+
+#neoma_hair_section__4__img_2
+{
+    width: 50%;
+}
+
+#neoma_hair_section__5__content
+{
+    width: 36%;
+    margin: 6% auto;
+}
+
+#neoma_hair_section__5__img
+{
+    width: 80%;
+    margin: auto;
+}
+
+#neoma_hair_section__6
+{
+    overflow: hidden;
+}
+
+#neoma_hair_section__6__img
+{
+    width: 120%;
+    margin-left: -10%;
+}
+
+#being_human_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/being_human/being_human_1.jpg");
+}
+
+#being_human_hero__content
+{
+    width: 52%;
+}
+
+#being_human_hero__description
+{
+    font-size: 65px;
+}
+
+#being_human_section__1
+{
+    margin: 4% auto;
+    overflow: hidden;
+}
+
+#being_human_section__1__img_1
+{
+    width: 42%;
+}
+
+#being_human_section__1__img_2
+{
+    width: 40%;
+    margin: 7% -14% auto 1%;
+}
+
+#being_human_section__1__img_3
+{
+    width: 40%;
+    margin: 7% auto auto;
+}
+
+#being_human_section__2__content
+{
+    width: 38%;
+    padding: 2% 0 10%;
+}
+
+#being_human_section__2__img_1
+{
+    width: 58%;
+}
+
+#being_human_section__2__img_grid_1
+{
+    justify-content: center;
+    width: 42%;
+    background: #EBEBEB;
+    padding: 3.1% 0;
+}
+
+#being_human_section__2__img_grid_1 img
+{
+    width: 28%;
+    margin: 0.8%;
+}
+
+#being_human_section__3__img_container
+{ 
+    position: relative;
+}
+
+#being_human_section__3__img_1
+{
+    width: 38%;
+    padding: 4% 4% 4% 16%;
+    align-self: flex-start;
+}
+
+#being_human_section__3__img_2
+{
+    position: absolute;
+    margin: 14% auto auto 22%;
+    width: 32%;
+    top: 0;
+}
+
+#being_human_section__3__img_3
+{
+    width: 42%;
+    align-self: flex-start;
+}
+
+#aventi_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/public_relations/aventi/aventi_1.png");
+}
+
+#aventi_section__1
+{
+    background: #D9D9D9;
+}
+
+#aventi_section__1__img_container
+{
+    margin: auto;
+    width: 88%;
+    padding: 8% 0;
+}
+
+#aventi_section__1__img_container .client_section__image
+{
+    width: 15%;
+    margin: auto;
+}
+
+#aventi_section__1__img_container .client_section__image:nth-of-type(2)
+{
+    width: 20%;
+}
+
+#aventi_section__1__img_container .client_section__image:nth-of-type(2) img
+{
+    width: 118%;
+    margin-left: -9%;
+}
+
+#aventi_section__2
+{
+    display: flex;
+}
+
+#aventi_section__2__img
+{
+    width: 40%;
+}
+
+#aventi_section__2__content
+{
+    width: 25%;
+}
+
+#aventi_section__3
+{
+    background: #DEDEDE;
+}
+
+#aventi_section__3__img
+{
+    padding: 10% 8% 0 12%;
+}
+
+#aventi_section__3__content
+{
+    padding-bottom: 8%;
+}
+
+#aventi_section__4
+{
+    background: #000000;
+}
+
+#aventi_section__4__img_1
+{
+    width: 14%;
+    margin-left: 20%;
+}
+
+#aventi_section__4__img_2
+{
+    width: 13%;
+    margin: 17% auto auto -4%;
+}
+
+#aventi_section__4__img_3
+{
+    width: 18%;
+    margin: 6.5% -6% auto auto;
+}
+
+#aventi_section__4__img_4
+{
+    width: 25%;
+}
+
+#mbo_cinemas_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/marketing/mbo_cinemas/mbo_cinemas_1.png");
+}
+
+#mbo_cinemas_hero__content
+{
+    width: 45%;
+}
+
+#mbo_cinemas_hero__description
+{
+    font-size: 65px;
+}
+
+#mbo_cinemas_section__2__content
+{
+    width: 44%;
+    margin: 4% auto;
+}
+
+#zoom_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/zoom/zoom_1.png");
+}
+
+#zoom_hero__content
+{
+    width: 52%;
+}
+
+#zoom_hero__description
+{
+    font-size: 65px;
+}
+
+#zoom_section__1
+{
+    background: #2A5A5A;
+}
+
+#zoom_section__1__img
+{
+    width: 100%;
+    padding: 0 0 4%;
+    margin: auto;
+}
+
+#zoom_section__1__content
+{
+    width: 28%;
+    padding-bottom: 10%;
+}
+
+#zoom_section__1__title
+{
+    color: #FFFFFF;
+}
+
+#zoom_section__1__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#zoom_section__2__img_container
+{
+    width: 65%;
+    margin: 8% auto;
+}
+
+#zoom_section__2__img_container .client_section__image img
+{
+    width: 150%;
+    margin-left: -25%;
+}
+
+#mbg_fruits_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/mbg_fruits/mbg_fruits_1.png");
+}
+
+#mbg_fruits_hero__content
+{
+    width: 52%;
+}
+
+#mbg_fruits_hero__description
+{
+    font-size: 65px;
+}
+
+#mbg_fruits_section__2
+{
+    display: flex;
+    justify-content: center;
+    width: 92%;
+    margin: 4% auto;
+}
+
+#mbg_fruits_section__2__img
+{
+    margin: 5%;
+}
+
+#mbg_fruits_section__2__content
+{
+    width: 28%;
+}
+
+#mbg_fruits_section__3
+{
+    background: #F0E9E0;
+}
+
+#mbg_fruits_section__3__content
+{
+    padding: 8% 0 0;
+}
+
+#mbg_fruits_section__3__description
+{
+    color: #434343;
+}
+
+#instaplan_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/instaplan/instaplan_1.png");
+}
+
+#instaplan_hero__content
+{
+    width: 52%;
+}
+
+#instaplan_hero__description
+{
+    font-size: 65px;
+}
+
+#instaplan_section__1__content
+{
+    width: 45%;
+    margin: 4% auto;
+}
+
+#spocket_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/spocket/spocket_1.png");
+}
+
+#spocket_hero__content
+{
+    width: 52%;
+}
+
+#spocket_hero__description
+{
+    font-size: 65px;
+}
+
+#spocket_section__1__img_container .client_section__image
+{
+    width: 50%;
+}
+
+#spocket_section__1__img_2
+{
+    background: #D6CBC2;
+    padding: 5% 0
+}
+
+#spocket_section__1__img_2 img
+{
+    width: 45%;
+    margin: auto;
+}
+
+#spocket_section__2
+{
+    background: #9290B7;
+}
+
+#spocket_section__2__content
+{
+    padding: 10% 0 6%;
+    width: 34%;
+}
+
+#spocket_section__2__title
+{
+    color: #FFFFFF;
+}
+
+#spocket_section__2__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#spocket_section__2__img
+{
+    padding-bottom: 10%;
+}
+
+#spocket_section__3__img
+{
+    width: 30%;
+    margin: 8% auto;
+}
+
+#spocket_section__4
+{
+    background: #D6CBC2;
+}
+
+#spocket_section__4__img
+{
+    width: 60%;
+    margin: auto;
+    padding: 8% 0;
+}
+
+#scorch_art_page
+{
+    background: #000000;
+}
+
+#scorch_art_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/online_solutions/scorch_art/scorch_art_1.png");
+}
+
+#scorch_art_hero__content
+{
+    width: 45%;
+}
+
+#scorch_art_hero__description
+{
+    font-size: 65px;
+}
+
+#scorch_art_section__2
+{
+    background: #000000;
+}
+
+#scorch_art_section__2__content
+{
+    padding: 10% 0 8%;
+    width: 35%;
+}
+
+#scorch_art_section__2__title
+{
+    color: #FFFFFF;
+}
+
+#scorch_art_section__2__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#scorch_art_section__2__img
+{
+    width: 80%;
+    margin: auto;
+}
+
+#scorch_art_section__3
+{
+    background: #000000;
+    /* padding: 10% 0 30%; */
+    padding: 10% 0 15%;
+}
+
+#scorch_art_section__3__img_container
+{
+    width: 45%;
+    margin: auto;
+}
+
+#scorch_art_section__3__img_2 img
+{
+    margin-bottom: -200%;
+}
+
+#scorch_art_section__3__img
+{
+    width: 50%;
+    margin: auto;
+}
+
+#varun_chibber_hero__image
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/public_relations/varun_chibber/varun_chibber_1.png");
+}
+
+#varun_chibber_hero__content
+{
+    width: 45%;
+}
+
+#varun_chibber_hero__description
+{
+    font-size: 65px;
+}
+
+#varun_chibber_section__2__content, #varun_chibber_section__5__content
+{
+    margin: 4% auto;
+    width: 46%;
+}
+
+#varun_chibber_section__3
+{
+    background-image: url("https://cdn.jsdelivr.net/gh/preetika96/terannum_includes@master/img/clients/public_relations/varun_chibber/varun_chibber_6.png");   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#varun_chibber_section__3__img
+{
+    width: 100%;
+}
+
+#varun_chibber_section__3__content
+{
+    padding: 2% 0 8%;
+    width: 46%;
+}
+
+#varun_chibber_section__3__title
+{
+    color: #FFFFFF;
+}
+
+#varun_chibber_section__3__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
+
+#varun_chibber_section__6
+{
+    background: #453D4D;
+}
+
+#varun_chibber_section__6__content
+{
+    width: 46%;
+    padding: 6% 0 10%;
+}
+
+#varun_chibber_section__6__title
+{
+    color: #FFFFFF;
+}
+
+#varun_chibber_section__6__description
+{
+    color: #FFFFFF;
+    font-family: "SalmaAlfasans_Thin";
+}
